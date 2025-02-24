@@ -1,0 +1,14 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: one
+  total_price: 1
+  points_used: 1
+  movie_id: 1
+  customer_id: 1
+
+two:
+  customer: two
+  total_price: 1
+  points_used: 1
+  movie_id: 2

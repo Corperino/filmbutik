@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Customer.find_or_create_by(id: 0) do |customer|
+    customer.name = 'Guest'
+    customer.points = 0
+  end
